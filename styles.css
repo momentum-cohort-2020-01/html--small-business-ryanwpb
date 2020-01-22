@@ -38,7 +38,7 @@ nav {
   justify-content: space-between;
 }
 
-.menu ul li{
+.menu ul li {
   display: inline-block;
 }
 
@@ -94,18 +94,26 @@ p.title.center {
 }
 
 .image-block {
-  width: calc(100%/3);
+  width: calc(100% / 3);
   margin: 1rem;
-
+  -webkit-box-shadow: 0 17px 30px -5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 17px 30px -5px rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  overflow: hidden;
 }
 
 .img-top {
-  background-image: url('starter_files/images/wild-hyacinth.jpg');
+  background-image: url("starter_files/images/wild-hyacinth.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 300px;
   width: 100%;
+}
+
+.img-desc {
+  margin-top: 1rem;
+  padding: 1rem;
 }
 
 /*-- Animations --*/
