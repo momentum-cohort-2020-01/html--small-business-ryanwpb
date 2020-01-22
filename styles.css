@@ -7,9 +7,46 @@
 }
 
 .header {
-  background-image: url('starter_files/images/store-interior.jpg');
+  background-image: url("starter_files/images/store-interior.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 95vh;
   background-position: center;
+  position: relative;
+  filter: brightness(80%);
+}
+
+.heading-box {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+.heading-primary {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 45px;
+  position: relative;
+  animation-name: moveInLeft;
+  animation-duration: 1.5s;
+}
+
+nav {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*-- Animations --*/
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    left: -10%;
+  }
+
+  100% {
+    opacity: 1;
+    left: 0;
+  }
 }
