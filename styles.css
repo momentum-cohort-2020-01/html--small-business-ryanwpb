@@ -111,6 +111,26 @@ p.title.center {
   width: 100%;
 }
 
+.img-top.two {
+  background-image: url("starter_files/images/lily-of-the-valley.jpg"); 
+}
+
+.img-top.three {
+  background-image: url("starter_files/images/crown-imperials.jpg"); 
+}
+
+.img-top.four {
+  background-image: url("starter_files/images/persian-buttercup.jpg"); 
+}
+
+.img-top.five {
+  background-image: url("starter_files/images/spring-starflower.jpg"); 
+}
+
+.img-top.six {
+  background-image: url("starter_files/images/tulips.jpg"); 
+}
+
 .img-desc {
   margin-top: 1rem;
   padding: 1rem;
