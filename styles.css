@@ -137,6 +137,10 @@ p.title.center {
   padding: 1rem;
 }
 
+.location {
+  line-height: 30px;
+}
+
 /*-- Animations --*/
 @keyframes moveInLeft {
   0% {
