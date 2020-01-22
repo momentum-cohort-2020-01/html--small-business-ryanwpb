@@ -38,6 +38,19 @@ nav {
   justify-content: space-between;
 }
 
+.menu ul li{
+  display: inline-block;
+}
+
+.menu ul li:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.menu a {
+  color: #000;
+  text-decoration: none;
+}
+
 /*-- Animations --*/
 @keyframes moveInLeft {
   0% {
